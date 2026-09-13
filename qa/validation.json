@@ -1,0 +1,55 @@
+{
+  "date": "2026-09-12",
+  "checks": [
+    "self-contained preview loads",
+    "embedded artwork decodes and is applied to the scene",
+    "day/night switch",
+    "settings and preference persistence",
+    "focus mode",
+    "prompt entry and explicit demo response",
+    "user text escaping",
+    "command search and keyboard execution",
+    "conversation/code/guide screens",
+    "390px mobile layout without horizontal overflow",
+    "mobile navigation",
+    "reduced-motion support",
+    "native ModuleLoader bundle parses",
+    "native enable/disable/update lifecycle under host-contract fixture",
+    "native disposal removes owned effects",
+    "no external asset requests",
+    "no JavaScript page errors",
+    "CSS fallback palette and geometric pattern render"
+  ],
+  "contrast": {
+    "light": {
+      "text/base": 13.94,
+      "text/side": 12.18,
+      "text/surface": 14.13,
+      "text/raised": 11.13,
+      "text/overlay": 14.13,
+      "accent/base": 5.97,
+      "green/base": 6.14,
+      "gold/base": 5.91,
+      "secondary/base": 6.55,
+      "tertiary/base": 6.21
+    },
+    "dark": {
+      "text/base": 15.83,
+      "text/side": 15.35,
+      "text/surface": 14.15,
+      "text/raised": 12.53,
+      "text/overlay": 11.69,
+      "accent/base": 9.77,
+      "green/base": 10.05,
+      "gold/base": 10.24,
+      "secondary/base": 9.45,
+      "tertiary/base": 7.49
+    }
+  },
+  "limits": [
+    "Native plugin checked against public DSH source and a host-contract fixture; not installed in the user’s DSH.",
+    "Preview illustrates the design; native DSH layout remains controlled by its own components."
+  ],
+  "validatedVersion": "1.0.0",
+  "latestLightPaletteReview": "daylight-review.json"
+}

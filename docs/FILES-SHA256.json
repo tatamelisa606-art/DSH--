@@ -1,0 +1,146 @@
+{
+  ".gitattributes": {
+    "bytes": 178,
+    "sha256": "62862e21e8688050d1b96d717847b7b8fb5757e188ad4c1695efbcdf86e69f65"
+  },
+  ".gitignore": {
+    "bytes": 99,
+    "sha256": "be082c7b7947f777e1c5c0b5425b32d63b01fe60ecd262d71928b82a017436ce"
+  },
+  "LICENSE-NOTICE.md": {
+    "bytes": 1091,
+    "sha256": "044eb3311689006d0c8430bafc691c488fe404e33d4ee7ef3dc1ca1138b45987"
+  },
+  "Nezuko-Preview.html": {
+    "bytes": 3213458,
+    "sha256": "5ddedad4e567378c7a90d071416385521201fae29542385d22eb5055cc56f65d"
+  },
+  "Nezuko-Standalone.css": {
+    "bytes": 405251,
+    "sha256": "2ebee5b64a96070bb3a9a19d3098006c0ff76d6801d31d9387622d61045c9bd9"
+  },
+  "README.md": {
+    "bytes": 6650,
+    "sha256": "98b1ff041fd818278e3c17331d782061121fa82532914e309317887ff9c49857"
+  },
+  "assets/MoonlightSans-Subset.woff": {
+    "bytes": 123616,
+    "sha256": "a41bb89151a14badd2b568605145a87b721e6fbda38f0fe17ebba726f3c05217"
+  },
+  "assets/MoonlightSerif-Subset.woff": {
+    "bytes": 174152,
+    "sha256": "c79fa1f2e40148446175bd24a6df738106efeb96dda402c68c1a30e0ba5d5229"
+  },
+  "assets/OFL-NotoSans.txt": {
+    "bytes": 4301,
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  "assets/OFL-NotoSerif.txt": {
+    "bytes": 4301,
+    "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+  },
+  "assets/nezuko-moonlight.png": {
+    "bytes": 2063620,
+    "sha256": "42f2afd99403b5133cc80552414e0fc4519b5947658b7fb96b3b4963cc74ebef"
+  },
+  "cordis.patch.yml": {
+    "bytes": 66,
+    "sha256": "e26048fa8941f9cf11837858e98d9314a24ad081903466d8a9080cce4814f999"
+  },
+  "lib/client.js": {
+    "bytes": 3165440,
+    "sha256": "0ce4119b34fc5bd38a00cde4f396d0982641a89ab50fea38804caa80b5c02e5c"
+  },
+  "lib/index.js": {
+    "bytes": 67,
+    "sha256": "fb47ce700cc179b3e83f5999ef220d70983a4f71e460bd15863735ac5bcd6da6"
+  },
+  "package.json": {
+    "bytes": 752,
+    "sha256": "2ede0d1a1d21c098f5cfde2a3acfb63cf2bf4e0c05ea5ee92fa120e139b9c192"
+  },
+  "preview/index.template.html": {
+    "bytes": 15524,
+    "sha256": "11dc0e2031a2e8251e3c939adfea29114cd786b6c4912b93deebbb7d9a462363"
+  },
+  "preview/preview.css": {
+    "bytes": 33739,
+    "sha256": "195826ff39a4c4dc7c0ec44da2cc1107a68d66b340330a35afdfc54ac6d627f0"
+  },
+  "preview/preview.js": {
+    "bytes": 15101,
+    "sha256": "85189c943f54dff94181588c70726ccdf8053a80bf4463a7e8cde78522e384fe"
+  },
+  "qa/Nezuko-Code.png": {
+    "bytes": 297888,
+    "sha256": "86594c7fc409487bf6aa6460020b19a486b4b94c24a6ac0760a448ceff480849"
+  },
+  "qa/Nezuko-Conversation.png": {
+    "bytes": 344620,
+    "sha256": "85c323501e0549873c44ac0888f46c5989ecf3a16f0cb6e8cc61ca07797f3ac9"
+  },
+  "qa/Nezuko-Daylight-Code.png": {
+    "bytes": 294108,
+    "sha256": "13d6dc16ed18d3219362065ab2de08c31da269f8cd3a88a5d4b6d3f7cae448e8"
+  },
+  "qa/Nezuko-Daylight-Mobile.png": {
+    "bytes": 259927,
+    "sha256": "f583c104486bf4095e4786169f340e552784f7b990a11a2f1faeb922bc66848c"
+  },
+  "qa/Nezuko-Daylight.png": {
+    "bytes": 1118098,
+    "sha256": "73eab2c99685105e82868b30e21229d0ac3cc9e93743137ad86b4d3753351487"
+  },
+  "qa/Nezuko-Desktop.png": {
+    "bytes": 1153703,
+    "sha256": "f276447609261a125a8ef8a7095f9000db7935fa7b85be72884e58e2e3c31cd3"
+  },
+  "qa/Nezuko-Mobile.png": {
+    "bytes": 273020,
+    "sha256": "77b3fcfeb3b0a596d698d7e65f117288c8c58c62f18da0b822683f0f080da24c"
+  },
+  "qa/Nezuko-Settings.png": {
+    "bytes": 432952,
+    "sha256": "51f86912d35093d1baa85bab92b635225205de48a5dca5442883d492a04a8cb3"
+  },
+  "qa/daylight-review.json": {
+    "bytes": 741,
+    "sha256": "3e8bf6190b29ccb64760b74b797ea5ab5e44531b4afc88899e26bd3664a427a9"
+  },
+  "qa/fixture.html": {
+    "bytes": 204,
+    "sha256": "e9872177ed261632631f003fbf44d775eaa114ed2b181c6cb6c2f87d3f428493"
+  },
+  "qa/validation.json": {
+    "bytes": 1711,
+    "sha256": "faeffaba77ef0db3df25d469d2e5467a13763191a81551cf723bc87c048479de"
+  },
+  "scripts/build.mjs": {
+    "bytes": 3542,
+    "sha256": "b08e16e2d91834bf2e8d1be7727208af9c2a89ee32a075036f4ff7923dd8e5fd"
+  },
+  "scripts/check.mjs": {
+    "bytes": 9445,
+    "sha256": "0f9a09dbaf2a17af4af23620f7b7fecc9714223664ef68860b77510aa2129fcd"
+  },
+  "src/client.mjs": {
+    "bytes": 6619,
+    "sha256": "cb4f71717ecddd3683ef7c15b0a1972943525ac8ca87ee21c4006d4414d30d00"
+  },
+  "src/index.mjs": {
+    "bytes": 67,
+    "sha256": "fb47ce700cc179b3e83f5999ef220d70983a4f71e460bd15863735ac5bcd6da6"
+  },
+  "src/native.css": {
+    "bytes": 5904,
+    "sha256": "bd8cdc92eea703d7fefc3cd1b70aa379337ab0678980fa619eccb7d3981db54a"
+  },
+  "src/tokens.mjs": {
+    "bytes": 3961,
+    "sha256": "06fd2a3767075690ce4429f05cfe0e6595bd110038db33574bae4b730fa780e9"
+  },
+  "theme.tokens.json": {
+    "bytes": 7472,
+    "sha256": "24413446fdb07187b85c4fea0f11402f183f1bcf34f1fa2c1691bca1e518ec3a"
+  }
+}

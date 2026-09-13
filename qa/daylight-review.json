@@ -1,0 +1,25 @@
+{
+  "version": "1.0.1",
+  "change": "Morning Sakura lower-glare palette and selective artwork masking",
+  "lightTextContrast": {
+    "text/base": 9.6,
+    "text/side": 8.01,
+    "text/surface": 10.73,
+    "text/raised": 7.8,
+    "text/overlay": 10,
+    "accent/base": 5.2,
+    "secondary/base": 5.31,
+    "tertiary/base": 4.97,
+    "caption/base": 4.96,
+    "green/base": 4.72,
+    "gold/base": 4.97
+  },
+  "oldBackgroundLuminance": 0.952,
+  "newBackgroundLuminance": 0.649,
+  "desktop": "1536×960",
+  "mobile": "390×844, no horizontal overflow",
+  "focusBackdrop": "warm gray",
+  "consoleErrors": [],
+  "unchangedDarkTokens": true,
+  "scope": "Visual and contrast review of changed light mode; native DSH not installed on user device."
+}

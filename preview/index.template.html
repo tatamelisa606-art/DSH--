@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="zh-CN" data-mode="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#171218">
+  <title>祢豆子 · 月下守护 | DSH Theme</title>
+  <style>/*__PREVIEW_CSS__*/</style>
+</head>
+<body>
+  <svg width="0" height="0" aria-hidden="true" class="svg-defs"><defs><pattern id="asanoha" width="80" height="138.56" patternUnits="userSpaceOnUse"><path d="M40 0 0 69.28 40 138.56 80 69.28Z M0 0 80 138.56 M80 0 0 138.56 M0 69.28H80 M40 0V138.56 M0 0 40 23.09 80 0 M0 138.56 40 115.47 80 138.56 M0 69.28 40 46.19 80 69.28 40 92.37Z" fill="none" stroke="currentColor" stroke-width=".7"/></pattern></defs></svg>
+  <div class="app">
+    <nav class="rail" aria-label="主导航">
+      <button class="brand-mark" data-action="home" aria-label="返回首页"><svg viewBox="0 0 48 48" fill="none"><path d="m24 4 17.32 10v20L24 44 6.68 34V14Z M24 4v40 M6.68 14l34.64 20 M6.68 34l34.64-20 M24 4l-5.78 16.67-11.54 13.33 17.32-3.33L41.32 34 29.78 20.67Z M6.68 14 24 17.33 41.32 14 29.78 27.33 24 44l-5.78-16.67Z" stroke="currentColor" stroke-width="1.3"/></svg></button>
+      <div class="rail-nav">
+        <button class="rail-button selected" data-view="home" aria-label="对话首页" title="对话首页"><i data-icon="message"></i></button>
+        <button class="rail-button" data-view="code" aria-label="代码样式" title="代码样式"><i data-icon="code"></i></button>
+        <button class="rail-button" data-view="guide" aria-label="主题手册" title="主题手册"><i data-icon="book"></i></button>
+      </div>
+      <div class="rail-bottom">
+        <button class="rail-button" data-action="settings" aria-label="主题设置" title="主题设置"><i data-icon="sliders"></i></button>
+        <button class="profile-avatar" data-action="about" aria-label="关于此主题">N</button>
+      </div>
+    </nav>
+    <aside class="sidebar" id="sidebar">
+      <svg class="sidebar-pattern" aria-hidden="true"><rect width="100%" height="100%" fill="url(#asanoha)"/></svg>
+      <div class="sidebar-brand"><span>DeepSeek <b>Harness</b></span><button class="icon-button" data-action="sidebar" aria-label="收起侧栏"><i data-icon="panel"></i></button></div>
+      <button class="new-chat" data-action="new"><i data-icon="plus"></i><span>开启新对话</span><kbd>⌘ ⇧ N</kbd></button>
+      <button class="search-button" data-action="search"><i data-icon="search"></i><span>搜索与快捷操作</span><kbd>⌘ K</kbd></button>
+      <div class="nav-section"><span>工作空间</span><i data-icon="chevron-down"></i></div>
+      <button class="workspace-row" data-action="workspace"><i data-icon="folder"></i><span>profile<small>D:\profile</small></span><span class="tiny-tag">预览</span></button>
+      <div class="nav-section conversations-label"><span>示例会话</span><i data-icon="clock"></i></div>
+      <div class="session-list" id="sessions">
+        <button class="session-row active" data-action="home"><i data-icon="sparkles"></i><span>月下，从一个灵感开始</span><span class="active-dot"></span></button>
+        <button class="session-row" data-action="sample"><i data-icon="message"></i><span>为灵感搭建一个家</span></button>
+        <button class="session-row" data-view="code"><i data-icon="code"></i><span>让代码也染上樱色</span></button>
+      </div>
+      <div class="sidebar-spacer"></div>
+      <button class="collection-card" data-action="settings">
+        <div class="collection-art"></div><div class="collection-shade"></div>
+        <span class="collection-kicker">THEME COLLECTION / 01</span>
+        <span class="collection-title">月下守护</span>
+        <span class="collection-footer">祢豆子 <i data-icon="arrow-up-right"></i></span>
+      </button>
+      <button class="sidebar-settings" data-action="settings"><i data-icon="palette"></i><span>外观与氛围</span><span class="mini-swatches"><i></i><i></i><i></i></span></button>
+      <div class="sidebar-credit"><span class="green-dot"></span>为每一个安静创作的夜晚</div>
+    </aside>
+    <main class="main">
+      <div class="scene" aria-hidden="true"></div><div class="scene-wash" aria-hidden="true"></div>
+      <div class="petals" id="petals" aria-hidden="true"></div>
+      <header class="topbar">
+        <div class="breadcrumb"><button class="icon-button mobile-menu" data-action="sidebar" aria-label="展开侧栏"><i data-icon="panel"></i></button><i data-icon="folder"></i><span>profile</span><span class="divider">/</span><span id="breadcrumb-current">新对话</span></div>
+        <div class="top-actions"><span class="preview-badge">主题交互预览</span><button class="focus-button" data-action="focus" aria-pressed="false"><i data-icon="focus"></i><span>专注</span></button><span class="top-separator"></span><button class="icon-button" data-action="mode" aria-label="切换到晨樱模式" title="切换昼夜"><i data-icon="sun"></i></button><button class="icon-button" data-action="settings" aria-label="调整主题"><i data-icon="sliders"></i></button></div>
+      </header>
+      <div class="view view-home" id="view-home">
+        <div class="home-content">
+          <div class="eyebrow"><span class="eyebrow-line"></span>NEZUKO · MOONLIT GUARDIAN</div>
+          <div class="edition-line"><span class="edition-seal">禰</span><span>月光落下的地方，灵感悄然生长。</span></div>
+          <h1>月下<span>守护</span><span class="heading-petal">✧</span></h1>
+          <p class="hero-description">把温柔留给世界，<br>把创造的勇气，留给此刻的你。</p>
+          <div class="welcome-question">今晚，想一起创造些什么？</div>
+          <form class="composer" id="home-form">
+            <label class="sr-only" for="prompt">输入你的灵感</label>
+            <textarea id="prompt" rows="2" placeholder="写下你的灵感，让它在月光下生长…" maxlength="8000"></textarea>
+            <div class="composer-bottom"><div class="composer-options"><button type="button" class="icon-button attach" data-action="attach" aria-label="选择附件"><i data-icon="plus"></i></button><button type="button" class="model-pill" data-action="model"><span class="green-dot"></span>DeepSeek <i data-icon="chevron-down"></i></button><button type="button" class="think-pill" data-action="thinking" aria-pressed="true"><i data-icon="sparkles"></i>深度思考</button></div><button class="send-button" type="submit" aria-label="发送演示消息"><i data-icon="arrow-up"></i></button></div>
+            <div class="attachment-note" id="attachment-note" hidden></div>
+          </form>
+          <div class="quick-actions">
+            <button data-prompt="帮我构思一个令人眼前一亮的创意项目。"><span class="quick-icon pink"><i data-icon="sparkles"></i></span><span>捕捉灵感<small>让想象有迹可循</small></span><i data-icon="arrow-up-right"></i></button>
+            <button data-prompt="帮我设计一个简洁优雅的网站首页。"><span class="quick-icon green"><i data-icon="code"></i></span><span>创造作品<small>从第一行代码开始</small></span><i data-icon="arrow-up-right"></i></button>
+            <button data-action="sample"><span class="quick-icon gold"><i data-icon="book"></i></span><span>探索对话<small>看看主题里的细节</small></span><i data-icon="arrow-up-right"></i></button>
+          </div>
+          <p class="composer-hint"><kbd>Enter</kbd> 发送 <span>·</span> <kbd>Shift + Enter</kbd> 换行 <span>·</span> 内容仅在本地演示</p>
+        </div>
+        <div class="character-caption" aria-hidden="true"><span class="vertical-jp">竈門 禰豆子</span><span class="caption-rule"></span><span class="caption-en">A GENTLE SOUL.<br>AN UNBREAKABLE WILL.</span></div>
+        <div class="scene-label"><span>壱</span><div>月下の竹林<small>THE NIGHT IS QUIET. YOUR IDEAS ARE NOT.</small></div></div>
+      </div>
+      <section class="view view-chat" id="view-chat" hidden>
+        <div class="chat-heading"><div class="eyebrow">A CONVERSATION IN MOONLIGHT</div><h2 id="chat-title">为灵感搭建一个家</h2><p>对话、思考与代码，都有各自恰好的光。</p></div>
+        <div class="messages" id="messages" aria-live="polite"></div>
+        <form class="composer chat-composer" id="chat-form"><label class="sr-only" for="chat-prompt">继续对话演示</label><textarea id="chat-prompt" rows="2" placeholder="继续这个灵感…" maxlength="8000"></textarea><div class="composer-bottom"><span class="local-label"><span class="green-dot"></span>本地演示 · 未连接模型</span><button class="send-button" aria-label="发送演示消息"><i data-icon="arrow-up"></i></button></div></form>
+      </section>
+      <section class="view view-code" id="view-code" hidden>
+        <div class="eyebrow">CRAFTED FOR YOUR FLOW</div><h2>让代码，也有温度。</h2><p class="view-description">柔和的语法色彩，清晰的层级。把注意力留给真正重要的创造。</p>
+        <div class="editor-card"><div class="editor-title"><span><i data-icon="code"></i> moonlight.ts</span><button class="copy-code" data-action="copy-code"><i data-icon="copy"></i>复制代码</button></div><div class="code-layout"><div class="line-numbers">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12</div><pre><code><span class="syntax-comment">// 把每一个微小的灵感，照亮。</span>
+<span class="syntax-purple">interface</span> <span class="syntax-gold">Moonlight</span> {
+  guardian: <span class="syntax-gold">string</span>;
+  warmth: <span class="syntax-gold">number</span>;
+}
+
+<span class="syntax-purple">const</span> <span class="syntax-blue">create</span> = (idea: <span class="syntax-gold">string</span>): <span class="syntax-gold">Moonlight</span> <span class="syntax-purple">=&gt;</span> ({
+  guardian: <span class="syntax-green">'Nezuko'</span>,
+  warmth: <span class="syntax-gold">100</span>,
+});
+
+<span class="syntax-blue">create</span>(<span class="syntax-green">'Something beautiful starts here.'</span>);</code></pre></div><div class="editor-footer"><span><span class="green-dot"></span>TypeScript</span><span>UTF-8 <span>·</span> 月下语法配色</span></div></div>
+        <div class="component-samples"><div><span class="sample-label">状态色</span><span class="state-chip success">● 已完成</span><span class="state-chip pending">◌ 思考中</span><span class="state-chip warning">△ 需要注意</span></div><div><span class="sample-label">行内代码</span><code class="inline-code">const dream = true</code><a href="#" data-action="sample">查看对话示例 ↗</a></div></div>
+      </section>
+      <section class="view view-guide" id="view-guide" hidden>
+        <div class="eyebrow">THE LITTLE THINGS MATTER</div><h2>细节里，住着祢豆子。</h2><p class="view-description">粉色麻叶纹、竹筒青、羽织深棕，与柔和月光，共同构成这套主题。</p>
+        <div class="guide-palette"><div style="--swatch:#f2a8bc"><span>樱粉</span><code>#F2A8BC</code></div><div style="--swatch:#a7c7ad"><span>竹青</span><code>#A7C7AD</code></div><div style="--swatch:#e0bb89"><span>月金</span><code>#E0BB89</code></div><div style="--swatch:#211922"><span>羽织</span><code>#211922</code></div><div style="--swatch:#f7eaf0"><span>月白</span><code>#F7EAF0</code></div></div>
+        <div class="guide-grid"><article><i data-icon="moon"></i><h3>月下 / 晨樱</h3><p>深色沉静，浅色温柔。点击右上角的太阳或月亮，即可切换。</p></article><article><i data-icon="focus"></i><h3>留一处安静</h3><p>专注模式淡去人物插画与花瓣，让工作区回归干净的阅读表面。</p></article><article><i data-icon="sliders"></i><h3>恰到好处的氛围</h3><p>插画强度与动态花瓣可以独立调整。偏好会保存在当前浏览器。</p></article></div>
+        <div class="guide-note"><b>使用说明</b><p>这是可离线打开的皮肤交互预览。完整主题包还包含 DSH 插件、原始插画、样式源码和安装说明。预览中的消息不会发送给任何模型；实际 DSH 界面布局由你的版本和已安装插件决定。</p><button class="subtle-button" data-action="settings">调整我的主题 <i data-icon="arrow-up-right"></i></button></div>
+      </section>
+      <footer class="statusbar"><span><span class="status-flower">✧</span><span id="status-theme">月下模式</span><span class="status-divider">/</span><span>祢豆子 · 月下守护</span></span><button data-action="settings"><span class="green-dot"></span><span>温柔，也是一种力量</span><i data-icon="sliders"></i></button></footer>
+    </main>
+  </div>
+  <div class="drawer-scrim" id="drawer-scrim" hidden></div>
+  <aside class="settings-drawer" id="settings-drawer" aria-labelledby="settings-title" role="dialog" aria-modal="true" hidden>
+    <div class="drawer-top"><div><span class="eyebrow">MAKE IT YOURS</span><h2 id="settings-title">月色，由你调配。</h2></div><button class="icon-button" data-action="close-settings" aria-label="关闭设置"><i data-icon="x"></i></button></div>
+    <div class="drawer-art"><span>禰豆子<small>MOONLIT GUARDIAN</small></span></div>
+    <h3 class="setting-heading">外观</h3><div class="mode-options"><button data-mode-choice="dark" aria-pressed="true"><span class="mode-preview dark-preview"><i></i><b></b></span><span><i data-icon="moon"></i>月下</span><i class="mode-check" data-icon="check"></i></button><button data-mode-choice="light" aria-pressed="false"><span class="mode-preview light-preview"><i></i><b></b></span><span><i data-icon="sun"></i>晨樱</span><i class="mode-check" data-icon="check"></i></button></div>
+    <div class="setting-range"><label for="art-strength">插画强度</label><output id="art-output">85%</output><input id="art-strength" type="range" min="15" max="100" value="85"></div>
+    <div class="setting-row"><span>花瓣轻舞<small>让月光里多一点生机</small></span><button class="toggle" data-action="motion" role="switch" aria-checked="true" aria-label="花瓣轻舞"></button></div>
+    <div class="setting-row"><span>专注模式<small>淡去装饰，静心创作</small></span><button class="toggle" data-action="focus" role="switch" aria-checked="false" aria-label="专注模式"></button></div>
+    <div class="drawer-palette"><i style="background:#f2a8bc"></i><i style="background:#a7c7ad"></i><i style="background:#e0bb89"></i><i style="background:#211922"></i><i style="background:#f7eaf0"></i><span>来自祢豆子的五种颜色</span></div>
+    <button class="reset-button" data-action="reset"><i data-icon="rotate"></i>恢复默认月色</button><p class="drawer-note">偏好仅保存在当前浏览器。<br>系统开启减少动态效果时，花瓣会自动静止。</p>
+  </aside>
+  <dialog id="command-dialog" aria-label="搜索与快捷操作"><div class="command-search"><i data-icon="search"></i><input id="command-input" placeholder="搜索会话或快捷操作…" autocomplete="off"><button class="icon-button" data-action="close-command" aria-label="关闭搜索"><kbd>Esc</kbd></button></div><div id="command-results"></div><div class="command-footer">↑ ↓ 选择 <span>Enter 确认</span></div></dialog>
+  <input type="file" id="file-input" hidden>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script>/*__PREVIEW_JS__*/</script>
+</body>
+</html>
